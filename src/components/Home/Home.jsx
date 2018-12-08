@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Col, Image, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -9,7 +10,9 @@ const Home = () => {
       <div class="header-text">
         Puppies
         <p className="p-text"> + payment plans now available</p>
-        <Button bsStyle="info">Free Shipping</Button>
+        <Link to="/shop">
+          <Button bsStyle="info">Shop Now</Button>
+        </Link>
       </div>
     </div>
   );
