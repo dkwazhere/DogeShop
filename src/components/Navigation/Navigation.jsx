@@ -6,15 +6,15 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <Navbar inverse collapseOnSelect>
+      <Navbar default collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">DogeShop</a>
+            <a href="/">DogeShop</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav>
+          <Nav pullRight>
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               Home
             </NavItem>
