@@ -14,7 +14,7 @@ const Navigation = () => {
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav pullLeft className="navbar">
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               Home
             </NavItem>
