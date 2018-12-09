@@ -2,6 +2,11 @@ body {
   padding-top: 2em;
 }
 
+.home {
+  padding-bottom: 5em;
+  text-align: center;
+}
+
 .header-image {
   width: 100%;
   height: 40em;
@@ -35,14 +40,12 @@ body {
 }
 
 .shop-wrapper {
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
+  background-color: #fff;
 }
 
 .dog-home-pic {
-  width: 50%;
+  width: 100%;
 }
 
 .dog-button {
@@ -59,3 +62,33 @@ body {
   border: 1px solid white;
   color: white;
 }
+
+/* .show-grid {
+  border: 1px solid black;
+} */
+
+.shop-wrapper {
+  /* border: 0.5px solid black; */
+  padding: 2.5em;
+}
+
+.dog-size-shop {
+  margin-top: 8em;
+  border-bottom: 1px solid #c0bfbe;
+}
+
+.dog-size-header {
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.dog-size-paragraph {
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 
+font-family: "Anton", sans-serif;
+font-size: 40px; */
