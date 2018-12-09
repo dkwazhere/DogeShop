@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Col, Image, Button } from "react-bootstrap";
+import { Col, Image, Button, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -10,12 +10,23 @@ const Home = () => {
       <div class="header-text">
         Puppies
         <p className="p-text"> + payment plans now available</p>
-        <Link to="/shop">
+        <Link to="/about">
           <Button bsStyle="link" block="true">
-            Shop Now
+            Learn More
           </Button>
         </Link>
       </div>
+      <Row className="show-grid text-center">
+        <Col xs={12} sm={4} className="shop-wrapper">
+          <h3>Shop Small Dogs</h3>
+        </Col>
+        <Col xs={12} sm={4} className="shop-wrapper">
+          <h3>Shop Medium Dogs</h3>
+        </Col>
+        <Col xs={12} sm={4} className="shop-wrapper">
+          <h3>Shop Large Dogs</h3>
+        </Col>
+      </Row>
     </div>
   );
 };

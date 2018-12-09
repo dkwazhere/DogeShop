@@ -33,3 +33,13 @@ body {
   border: 1px solid white;
   color: black;
 }
+
+.shop-wrapper {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.shop-wrapper {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
