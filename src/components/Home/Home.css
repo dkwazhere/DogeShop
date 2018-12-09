@@ -37,13 +37,25 @@ body {
 .shop-wrapper {
   padding-left: 2em;
   padding-right: 2em;
-}
-
-.shop-wrapper {
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
 .dog-home-pic {
   width: 50%;
+}
+
+.dog-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  margin-top: 2em;
+}
+
+.dog-button:focus,
+.dog-button:hover {
+  text-decoration: underline;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
 }

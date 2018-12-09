@@ -19,17 +19,27 @@ const Home = () => {
       <Row className="show-grid text-center">
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/small-dog.jpg" circle className="dog-home-pic" />
-          <h3>Shop Small Dogs</h3>
+          <Link to="/about">
+            <Button className="dog-button" bsStyle="link" block="true">
+              Shop Small Dogs
+            </Button>
+          </Link>
         </Col>
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/medium-dog.jpg" circle className="dog-home-pic" />
-
-          <h3>Shop Medium Dogs</h3>
+          <Link to="/about">
+            <Button className="dog-button" bsStyle="link" block="true">
+              Shop Medium Dogs
+            </Button>
+          </Link>
         </Col>
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/large-dog.jpg" circle className="dog-home-pic" />
-
-          <h3>Shop Large Dogs</h3>
+          <Link to="/about">
+            <Button className="dog-button" bsStyle="link" block="true">
+              Shop Large Dogs
+            </Button>
+          </Link>
         </Col>
       </Row>
     </div>
