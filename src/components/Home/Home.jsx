@@ -11,7 +11,9 @@ const Home = () => {
         Puppies
         <p className="p-text"> + payment plans now available</p>
         <Link to="/shop">
-          <Button bsStyle="info">Shop Now</Button>
+          <Button bsStyle="link" block="true">
+            Shop Now
+          </Button>
         </Link>
       </div>
     </div>
