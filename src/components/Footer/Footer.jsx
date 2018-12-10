@@ -6,9 +6,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <hr />
+      <hr className="footer-hr" />
       <Row className="show-grid text-center">
-        <Col xs={3} sm={3}>
+        <Col xs={4} sm={2}>
           <p>Shop</p>
           <Link to="/smalldogs">Small Dogs</Link>
           <br />
@@ -18,7 +18,7 @@ const Footer = () => {
           <br />
           <Link to="/accessories">Accessories</Link>
         </Col>
-        <Col xs={3} sm={3}>
+        <Col xs={4} sm={4}>
           <p>Support</p>
           <Link to="/about">About Us</Link>
           <br />
@@ -28,13 +28,7 @@ const Footer = () => {
           <br />
           <Link to="/jobs">Jobs</Link>
         </Col>
-        <Col xs={3} sm={3}>
-          <p>About DogeShop</p>
-          <p>
-            We are a shop dedicated to helping customers find their perfect dog
-          </p>
-        </Col>
-        <Col xs={3} sm={3}>
+        <Col xs={4} sm={6}>
           <p>Sign up for newsletters</p>
           <p>
             Dont worry, we hate spam too - we will send you only the best stuff
