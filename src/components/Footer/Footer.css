@@ -1,0 +1,13 @@
+.footer-copyright {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.footer-email {
+  width: 50%;
+  padding-right: 2em;
+}
+
+.footer-email-section {
+  display: inline;
+}

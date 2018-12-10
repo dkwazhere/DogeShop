@@ -9,6 +9,7 @@ import SmallDogs from "./components/Shop/SmallDogs";
 import MediumDogs from "./components/Shop/MediumDogs";
 import LargeDogs from "./components/Shop/LargeDogs";
 import Accessories from "./components/Shop/Accessories";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path="/accessories" component={Accessories} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Footer />
         </div>
       </Router>
     );
