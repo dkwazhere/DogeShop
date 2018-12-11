@@ -3,7 +3,7 @@ body {
 }
 
 .home {
-  padding-bottom: 8em;
+  padding-bottom: 2em;
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ font-size: 40px; */
 .about-us-section {
   margin-top: 8em;
   border-bottom: 1px solid #c0bfbe;
-  padding-bottom: 8em;
+  padding-bottom: 5em;
 }
 
 .about-us-header {
