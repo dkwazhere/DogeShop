@@ -3,7 +3,7 @@ body {
 }
 
 .home {
-  padding-bottom: 5em;
+  padding-bottom: 8em;
   text-align: center;
 }
 
@@ -79,13 +79,13 @@ body {
 
 .dog-size-header {
   font-family: "Hind Vadodara", sans-serif;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .dog-size-paragraph {
   font-family: "Hind Vadodara", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -95,11 +95,13 @@ font-size: 40px; */
 
 .about-us-section {
   margin-top: 8em;
+  border-bottom: 1px solid #c0bfbe;
+  padding-bottom: 8em;
 }
 
 .about-us-header {
   font-family: "Hind Vadodara", sans-serif;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
   padding-bottom: 1em;
 }
@@ -107,4 +109,8 @@ font-size: 40px; */
 .about-us-pic {
   width: 50%;
   padding-bottom: 2em;
+}
+
+.about-us-p {
+  font-size: 11px;
 }

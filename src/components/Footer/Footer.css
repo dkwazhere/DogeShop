@@ -4,7 +4,7 @@
 }
 
 .footer-email {
-  width: 50%;
+  width: 40%;
   padding-right: 2em;
 }
 
@@ -12,6 +12,26 @@
   display: inline;
 }
 
-.footer-hr {
-  padding-bottom: 3.5em;
+.footer a {
+  color: black;
+  font-size: 10px;
+}
+
+.footer-p {
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.footer-about {
+  font-size: 10px;
+  padding-bottom: 1em;
+}
+
+.footer-logo {
+  width: 15%;
+  padding-right: 1em;
+}
+
+.footer-newsletter {
+  font-size: 10px;
 }
