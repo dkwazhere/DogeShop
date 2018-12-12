@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image, Button, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import "./About.css";
 
 const About = () => {

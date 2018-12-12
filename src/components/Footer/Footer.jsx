@@ -36,19 +36,39 @@ const Footer = () => {
             family. We offer the best show case dogs and offer reasonable
             prices. We also sell high quality accessories for your dogs.
           </p>
-          <a href="https://facebook.com" target="_blank">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="assets/facebook.png" className="footer-logo" />
           </a>
-          <a href="https://instagram.com" target="_blank">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="assets/instagram.png" className="footer-logo" />
           </a>
-          <a href="https://linkedin.com" target="_blank">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="assets/linkedin.png" className="footer-logo" />
           </a>
-          <a href="https://pinterest.com" target="_blank">
+          <a
+            href="https://pinterest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="assets/pinterest.png" className="footer-logo" />
           </a>
-          <a href="https://twitter.com" target="_blank">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image src="assets/twitter.png" className="footer-logo" />
           </a>
         </Col>
