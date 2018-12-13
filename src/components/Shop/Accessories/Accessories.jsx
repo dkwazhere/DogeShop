@@ -1,11 +1,15 @@
 import React from "react";
-import { Col, Button, Panel, Row, Image } from "react-bootstrap";
+import { Col, Panel, Row, Image } from "react-bootstrap";
 import "./Accessories.css";
 
 const Home = () => {
   return (
     <div className="accessories">
-      <h3>Mid Sized Dogs</h3>
+      <Image src="assets/accessories-jumbotron.jpg" className="header-image" />
+      <p className="accessories-header">Accessories</p>
+      <p className="accessories-p">
+        All our accessories are high quality and life time warranty
+      </p>
       <Row className="show-grid text-center">
         <Col xs={12} sm={3} className="shop-wrapper">
           <Panel>

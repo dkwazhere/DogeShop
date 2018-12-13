@@ -1,11 +1,15 @@
 import React from "react";
-import { Col, Button, Panel, Row, Image } from "react-bootstrap";
+import { Col, Panel, Row, Image } from "react-bootstrap";
 import "./SmallDogs.css";
 
 const Home = () => {
   return (
     <div className="small-dogs">
-      <h3>Small Sized Dogs</h3>
+      <Image src="assets/small-jumbotron.jpg" className="header-image" />
+      <h3 className="small-sized-header">Small Sized Dogs</h3>
+      <p className="small-sized-p">
+        Our small sized dog selection age from 3 months to adult
+      </p>
       <Row className="show-grid text-center">
         <Col xs={12} sm={3} className="shop-wrapper">
           <Panel>

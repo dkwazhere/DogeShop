@@ -54,6 +54,9 @@ const About = () => {
           <p>Store Manager</p>
         </Col>
       </Row>
+      <h3>Pictures used on website references</h3>
+      <p>https://croppola.com/</p>
+      <p>https://petco.com</p>
     </div>
   );
 };

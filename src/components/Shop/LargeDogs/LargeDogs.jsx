@@ -1,11 +1,15 @@
 import React from "react";
-import { Col, Button, Panel, Row, Image } from "react-bootstrap";
+import { Col, Panel, Row, Image } from "react-bootstrap";
 import "./LargeDogs.css";
 
 const Home = () => {
   return (
     <div className="large-dogs">
-      <h3>Large Sized Dogs</h3>
+      <Image src="assets/large-jumbotron.jpg" className="header-image" />
+      <p className="large-sized-header">Large Sized Dogs</p>
+      <p className="large-sized-p">
+        Our large sized dog selection age from 3 months to adult
+      </p>
       <Row className="show-grid text-center">
         <Col xs={12} sm={3} className="shop-wrapper">
           <Panel>
