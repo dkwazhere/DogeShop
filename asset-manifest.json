@@ -1,13 +1,13 @@
 {
   "main.css": "/DogeShop/static/css/main.2a6db46c.chunk.css",
-  "main.js": "/DogeShop/static/js/main.9b089615.chunk.js",
-  "main.js.map": "/DogeShop/static/js/main.9b089615.chunk.js.map",
+  "main.js": "/DogeShop/static/js/main.4009c886.chunk.js",
+  "main.js.map": "/DogeShop/static/js/main.4009c886.chunk.js.map",
   "static/js/1.458128d8.chunk.js": "/DogeShop/static/js/1.458128d8.chunk.js",
   "static/js/1.458128d8.chunk.js.map": "/DogeShop/static/js/1.458128d8.chunk.js.map",
   "runtime~main.js": "/DogeShop/static/js/runtime~main.ec749261.js",
   "runtime~main.js.map": "/DogeShop/static/js/runtime~main.ec749261.js.map",
   "static/css/main.2a6db46c.chunk.css.map": "/DogeShop/static/css/main.2a6db46c.chunk.css.map",
   "index.html": "/DogeShop/index.html",
-  "precache-manifest.00895c95ae7e267c75f6717d8088b2b1.js": "/DogeShop/precache-manifest.00895c95ae7e267c75f6717d8088b2b1.js",
+  "precache-manifest.2aceb222995ce27fa37600b9424e2b76.js": "/DogeShop/precache-manifest.2aceb222995ce27fa37600b9424e2b76.js",
   "service-worker.js": "/DogeShop/service-worker.js"
 }
