@@ -1,5 +1,6 @@
 .small-dogs {
   padding-top: 8em;
+  text-align: center;
 }
 
 .small-dog-pic {
@@ -16,4 +17,8 @@
 .small-sized-p {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 12px;
+}
+
+.shop-wrapper {
+  padding: 0.5em;
 }

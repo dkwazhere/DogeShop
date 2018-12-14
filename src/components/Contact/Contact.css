@@ -1,0 +1,38 @@
+.contact {
+  padding-top: 10em;
+  padding-left: 15em;
+  padding-bottom: 8em;
+  color: black;
+  font-size: 11px;
+}
+
+.contact-header {
+  font-weight: bold;
+}
+
+.contact-message {
+  padding-bottom: 5em;
+  padding-right: 12.5em;
+  padding-left: 1.5em;
+}
+
+.contact-p {
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+
+.contact-name {
+  padding: 0.5em;
+  padding-right: 6.5em;
+}
+
+.contact-email {
+  padding: 0.5em;
+  padding-right: 6.5em;
+}
+
+.contact-button {
+  margin-top: 0.5em;
+  width: 78%;
+}

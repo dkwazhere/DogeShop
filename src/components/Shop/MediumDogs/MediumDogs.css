@@ -1,5 +1,6 @@
 .medium-dogs {
   padding-top: 8em;
+  text-align: center;
 }
 
 .medium-dog-pic {
@@ -16,4 +17,8 @@
 .medium-sized-p {
   font-family: "Hind Vadodara", sans-serif;
   font-size: 12px;
+}
+
+.shop-wrapper {
+  padding: 0.5em;
 }
