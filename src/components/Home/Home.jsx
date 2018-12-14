@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <Image src="./assets/home-pic.jpg" className="header-image" />
+      <Image src="assets/home-pic.jpg" className="header-image" />
       <div class="header-text">
         Puppies
         <p className="p-text"> + payment plans now available</p>
