@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <Image src="assets/home-pic.jpg" className="header-image" />
+      <Image src="./assets/home-pic.jpg" className="header-image" />
       <div class="header-text">
         Puppies
         <p className="p-text"> + payment plans now available</p>
@@ -22,7 +22,7 @@ const Home = () => {
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="shop-wrapper">
             <Image src="assets/small-dog.jpg" square className="dog-home-pic" />
-            <Link to="/about">
+            <Link to="/smalldogs">
               <Button className="dog-button" bsStyle="link" block="true">
                 Shop Small Dogs
               </Button>
@@ -34,7 +34,7 @@ const Home = () => {
               square
               className="dog-home-pic"
             />
-            <Link to="/about">
+            <Link to="/mediumdogs">
               <Button className="dog-button" bsStyle="link" block="true">
                 Shop Medium Dogs
               </Button>
@@ -42,7 +42,7 @@ const Home = () => {
           </Col>
           <Col xs={12} sm={4} className="shop-wrapper">
             <Image src="assets/large-dog.jpg" square className="dog-home-pic" />
-            <Link to="/about">
+            <Link to="/largedogs">
               <Button className="dog-button" bsStyle="link" block="true">
                 Shop Large Dogs
               </Button>
