@@ -69,6 +69,7 @@ body {
 
 .shop-wrapper {
   /* border: 0.5px solid black; */
+  font-family: "Quicksand", sans-serif;
   padding: 2.5em;
 }
 
@@ -97,6 +98,8 @@ font-size: 40px; */
   margin-top: 8em;
   border-bottom: 1px solid #c0bfbe;
   padding-bottom: 5em;
+  font-family: "Quicksand", sans-serif;
+  font-size: 11px;
 }
 
 .about-us-header {

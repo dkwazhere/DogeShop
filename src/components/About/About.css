@@ -1,6 +1,8 @@
 .about {
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   padding-bottom: 5rem;
+  font-size: 11px;
 }
 
 .about-us-header {
@@ -9,6 +11,24 @@
   font-weight: bold;
 }
 
+.meet-us-header {
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 7em;
+}
+
 .team-pic {
   width: 50%;
+}
+
+.references {
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+.team-names {
+  padding-top: 0.5em;
+  font-weight: bold;
+  font-size: 15px;
 }

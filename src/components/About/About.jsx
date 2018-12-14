@@ -36,27 +36,29 @@ const About = () => {
             you want. There he comes.
           </p>
         </Col>
-        <h3 className="about-us-header">Meet the team</h3>
+        <h3 className="meet-us-header">Meet the team</h3>
 
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/person1.jpg" circle className="team-pic" />
-          <p>Hannah Bazooka</p>
+          <p className="team-names">Hannah Bazooka</p>
           <p>Founder/CEO of DogeShop</p>
         </Col>
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/person2.jpg" circle className="team-pic" />
-          <p>Henry Chimi</p>
+          <p className="team-names">Henry Chimi</p>
           <p>Dog Trainer/Dog Whisperer</p>
         </Col>
         <Col xs={12} sm={4} className="shop-wrapper">
           <Image src="assets/person3.jpg" circle className="team-pic" />
-          <p>Albert Shnizeweiger</p>
+          <p className="team-names">Albert Shnizeweiger</p>
           <p>Store Manager</p>
         </Col>
       </Row>
-      <h3>Pictures used on website references</h3>
-      <p>https://croppola.com/</p>
-      <p>https://petco.com</p>
+      <div className="references">
+        <h3>Pictures used on website references</h3>
+        <p>https://croppola.com/</p>
+        <p>https://petco.com</p>
+      </div>
     </div>
   );
 };
